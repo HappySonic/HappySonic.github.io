@@ -133,6 +133,7 @@ ul li {
 
 #slides article{ 
 	width: 20%;
+
 	float: left;
 }
 
@@ -259,6 +260,17 @@ label, a{
         margin: 0 auto;
     }
  }
+ @media screen and (max-width: 960px) {
+        .flex-container1 {
+      padding-top: 10px;
+    }
+   ul li {
+    padding: 20px;
+    }
+    ul{
+      margin-top: 20px;
+    }
+   }
 </style></head>
 
 <body>
