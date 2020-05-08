@@ -1,353 +1,176 @@
 # Возможно, что-то изменилось не в лучшую сторону
-Здесь что-то да было
+
 <!DOCTYPE html>
-<!-- saved from url=(0114)file:///C:/Users/%D0%9C%D0%B8%D1%88%D0%B0%20%D0%B8%20%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0/Desktop/index%20(3).html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Pixelmon.Pro</title>
+<html>
+<head>
+	<title>Ванна Генадия Букина</title>
+</head>
 <style type="text/css">
-	body {
-		background-color:skyblue;
-    }
-.logo {
-    background-image: url("https://media.discordapp.net/attachments/451826117914132482/567729895283752980/logo-pixelpro.png");
-    width: 300px;
-    height: 150px;
-    margin: 0 auto;
-  }
-.wrapper{
-  width:800px;
-  height:500px;
-  margin: 0 auto;
-  background-image: url("https://telegraf.com.ua/files/2018/02/iStock-516189065.jpg");
+body {
+	background-color: #5F9EA0;
+	background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Solid-Color-Wallpaper-HD.jpg")
 }
+.welcome {
+  text-align: center;
+}
+.logo {
+    background-image: url("https://cdn.discordapp.com/attachments/451826117914132482/631720010037067796/D093D0B5D0BDD0B0_D091D183D0BAD196D0BD.png");
+    width: 300px;
+    height: 176px;
+    margin-left: -80px;
+  }
+.container1 {
+	background-color: #00FFFA;
+	height: 600px;
+	width: 800px;
+    margin: 0 auto;
+}
+.menu {
+	justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+	background-color: #F4CD3F;
+	height: 179px;
+	width: 800px;
+	background-image: url("http://opt.textileplaza.com.ua/image/cache/catalog/item/8509/0914940001453127141-800x800.jpg");
+}
+.page1 {
+	width: 800px;
+	height: 460px;
+  background-image: url("https://media.discordapp.net/attachments/451826117914132482/646795466960404505/unknown.png");
+}
+ h1 { 
+  padding: 215px 80px;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  }
+  h1 p {
+  	text-align: center;
+  }
+  li{
+    background: #f0f0f0; 
+    border: 1px solid black; 
+    padding: 15px; 
+    margin-bottom: 5px; 
+    margin-left: -5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 5px 140px 5px 109px;
+-moz-border-radius: 5px 150px 5px 109px;
+-webkit-border-radius: 50px 120px 5px 109px;
+border: 15px double #1e68b8;"
+   }
 ul {
   margin: 0 auto;
-}
+  }
 ul li { 
   display: inline-block;
-  padding: 100px 5px; 
+  padding: 9px; 
   font-style: oblique;
-  color: white;
-  margin-top: -40px;
+  color: black;
+  margin-top: 15px;
   }
-.flex-container1 {
-  justify-content: space-between;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  width:800px;
-  height: 150px;
-  margin:0 auto;
-  background-image: url(https://telegraf.com.ua/files/2018/02/iStock-516189065.jpg)
+  .dws {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+.butt {
+ font-size: 30px;
+ color: #218294;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 800px;
+ height: 480px;
+ display: block;
+ line-height: 60px;
+ font-family: Arial, sans-serif;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+}
+.butt::before,
+.butt::after {
+ position: absolute;
+ content: '';
+ width: 100%;
+ height: 100%;
+ background-image:  url("https://ae01.alicdn.com/kf/HTB1f.2HXDjxK1Rjy0Fnq6yBaFXa6/-.jpg_q50.jpg");
+ top: 0;
+ left: -100%;
+ opacity: .5;
+ transition: .3s;
+ z-index: -1;
+}
+.butt::after {
+ opacity: 1;
+ transition-delay: .2s;
+}
+.butt:hover {
+ color: #fff;
+}
+.butt:hover::before,
+.butt:hover::after {
+ left: 0;
+}
+.dws {
+margin-top: 98px;
+}
+.hr {
+  color: #FFD700;
+  width: 80px;
+  border: 3px solid #FFD700;
+  margin: 0 auto;
   }
   #cont {
   width: 100%; 
   height: 100px;
-  background-image: url("https://telegraf.com.ua/files/2018/02/iStock-516189065.jpg");
-  margin-top: 150px;
+  background-image: url("http://opt.textileplaza.com.ua/image/cache/catalog/item/8509/0914940001453127141-800x800.jpg");
+  margin-top: 140px;
 }
 .team {
   margin-top: 50px;
 }
-.hr {
-  color: #FFD700;
-  width: 60px;
-  border: 3px solid #FFD700;
-  margin: 0 auto;
-  }
-  .flex-container2 {
-  flex-direction: column;
-  }
 .flex-container2 {
+  flex-direction: column;
   padding-bottom: 80px;
   }
-  h1 { 
+  h2 { 
   margin: 0 auto;
   text-align: center;
-  color: white;
+  color: black;
   }
-  h2, h3 { 
-  padding-top: 50px;
-  margin: 0 auto;
-  text-align: center;
-  color: yellow;
-  }
-  .flex-container3, .flex-container4 {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: flex-start;
-}
-#circle1, #circle2, #circle3, #circle4 {
-  width: 120px;
-  height: 120px;
-  border: 2px solid black;
-  margin: 0 auto;
-  }
-  #abz {
-  padding: 50px 50px 0px 50px;
-  margin: 0 auto;
-  text-align: center;
-  color: white;
-  }
-  #pic, #pic1 {
-  width: 300px;
-  height: 150px;
-  border: 2px solid black;
-  margin: 0 auto;	
-  }
- .welcome {
- 	padding-top: 150px;
- }
- #circle1 {
- 	background-image: url("https://cdn.discordapp.com/attachments/451826117914132482/580110468463591424/d59a7e7967fbffc1.png");
- }
-  #circle2 {
- 	background-image: url("https://cdn.discordapp.com/avatars/174201922608300032/a_db166e83023ec5715ba3a301afdd8369.gif");
- }
-  #circle3 {
- 	background-image: url("https://cdn.discordapp.com/avatars/232832715626381313/9f4f9f3884e7ccf99448fdf7d97e8574.jpg?size=2048");
- }
- #circle4 {
- 	background-image: url("https://cdn.discordapp.com/attachments/451826117914132482/580110468463591424/d59a7e7967fbffc1.png");
- }
- #pic {
- 	background-image: url("https://thumbs.dreamstime.com/thumb_12183/121839743.jpg");
- }
- #pic1 {
- 	background-image: url("https://thumbs.dreamstime.com/thumb_1335/13353182.jpg");
- }
- #carouselExampleSlidesOnly {
-  width: 600px;
-  height: 500px;
-  margin: 0 auto;
-  margin-top: 50px;
-   }
-   #slider { 
-    position: relative;
-	text-align: center;
-    top: 10px;
-}
-
-#slider{ 
-	margin: 0 auto;
-}
-
-#slides article{ 
-	width: 20%;
-
-	float: left;
-}
-
-#slides .image{ 
-	width: 500%;
-	line-height: 0;
-}
-
-#overflow{ 
-	width: 100%;
-	overflow: hidden;
-}
-
-article img{ 
-	width: 100%;
-}
-
-#desktop:checked ~ #slider{ 
-	max-width: 960px; 
-}
-
-#switch1:checked ~ #controls label:nth-child(5), 
-#switch2:checked ~ #controls label:nth-child(1),
-#switch3:checked ~ #controls label:nth-child(2),
-#switch4:checked ~ #controls label:nth-child(3),
-#switch5:checked ~ #controls label:nth-child(4){
-	background: url('prev.png') no-repeat; 
-	float: left;
-	margin: 0 0 0 -84px; 
-	display: block;
-	height: 68px;
-	width: 68px;
-}
-
-
-#switch1:checked ~ #controls label:nth-child(2), 
-#switch2:checked ~ #controls label:nth-child(3),
-#switch3:checked ~ #controls label:nth-child(4),
-#switch4:checked ~ #controls label:nth-child(5),
-#switch5:checked ~ #controls label:nth-child(1){
-	background: url('next.png') no-repeat; 
-	float: right;
-	margin: 0 -84px 0 0; 
-	display: block;
-	height: 68px;
-	width: 68px;
-}
-
-label, a{ 
-	cursor: pointer;
-}
-
-.all input{ 
-	display: none;
-}
-
-
-#switch1:checked ~ #slides .image{
-	margin-left: 0;
-}
-
-#switch2:checked ~ #slides .image{
-	margin-left: -100%;
-}
-
-#switch3:checked ~ #slides .image{
-	margin-left: -200%;
-}
-
-#switch4:checked ~ #slides .image{
-	margin-left: -300%;
-}
-
-#switch5:checked ~ #slides .image{
-	margin-left: -400%;
-}
-
-#controls{ 
-	margin: -25% 0 0 0;
-	width: 100%;
-	height: 50px;
-}
-
-#active label{ 
-	border-radius: 10px; 
-	display: inline-block; 
-	width: 15px;
-	height: 15px;
-	background: #bbb;
-}
-
-#active{ 
-	margin: 23% 0 0;
-	text-align: center;
-}
-
-#active label:hover{ 
-	background: #76c8ff;
-	border-color: #777 !important; 
-}
-#switch1:checked ~ #active label:nth-child(1),
-#switch2:checked ~ #active label:nth-child(2),
-#switch3:checked ~ #active label:nth-child(3),
-#switch4:checked ~ #active label:nth-child(4),
-#switch5:checked ~ #active label:nth-child(5){
-	background: #18a3dd;
-	border-color: #18a3dd !important;
-}
-
-#slides .image{ 
-	transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-}
-
-#controls label:hover{ 
-	opacity: 0.6;
-}
-
-#controls label{ 
-	transition: opacity 0.2s ease-out;
-}
- @media screen and (max-width: 960px) {
-    .wrapper, .welcome, #carouselExampleSlidesOnly, .flex-container2, .flex-container1 {
-        width: 100%;
-        margin: 0 auto;
-    }
- }
- @media screen and (max-width: 960px) {
-        .flex-container1 {
-      padding-top: 10px;
-    }
-   ul li {
-    padding: 20px;
-    }
-    ul{
-      margin-top: 20px;
-    }
-   }
-</style></head>
-
+</style>
 <body>
-<div class="flex-container">
-<div class="flex-container1">
-  <div class="logo"></div>
-     <ul>
-  <li><a href="#1"><button type="button" class="btn btn-danger">Домашняя страница</button></a></li>
-  <li><a href="#2"><button type="button" class="btn btn-danger">Подробнее</button></a></li>
-  <li><a href="#3"><button type="button" class="btn btn-danger">Сервисы</button></a></li>
-  <li><a href="#4"><button type="button" class="btn btn-danger">Галерея</button></a></li>
+<div class="container1">
+	<div class="menu">
+		           <ul>
+  <li><a href="Bathroom.html">Помыться</a></li>
+  <li><a href="#2">Почистить зубы</a></li>
+  <li><a href="#3">Побриться</a></li>
+  <li><a href="Hobby.html">Принять душ</a></li>
+  <li><a href="#5">Закрыться на 15 часов</a></li>
+  <li><a href="#6">Спрятать заначку</a></li>
+  <li><a href="#7">Выйти из душа</a></li>
     </ul>
-  </div>
-  <div class="wrapper"> 
-  <h1 class="welcome">Добро пожаловать</h1>
-  <p id="abz">Pixelmon.PRO – лучший проект по Пиксельмон моду. Присоединитесь к настоящим тренерам Покемонов и станьте лучшим! Pixelmon лаунчер сервера и официальные версии мода Pixelmon!
-  </p>
-  </div>
-  <div class="flex-container2">
-    <div id="cont"> <h1 class="team">Наши РАБочие</h1>
-    <div class="hr"> </div></div>
+    <div class="dws">
+      <a href="#" class="butt"></a>
     </div>
-<div class="flex-container3">
-  <div class="b1">
-  <div id="circle2"></div>
-  <h2>Артикуно</h2>
-  <h3>Тех.Админ</h3>
-  <p id="abz"> Спит 20 часов в день, сам за 4 часа успевает больше чем за 2 недели вся остальная команда</p>
-  </div>
-  <div class="c1">
-  <div id="circle3"></div>
-  <h2>HappySonic</h2>
-  <h3>Просто админ</h3>
-  <p id="abz"> Делает сразу 12 дел, но потом исчезает на несколько дней</p>
-  </div>
-  </div>
-  <div class="flex-container2">
-    <div id="cont"> <h1 class="team">Галерея</h1>
-    <div class="hr"> </div></div>
+            <div class="logo"></div>
     </div>
-      <div class="all">
-        <input checked type="radio" name="respond" id="desktop">
-          <article id="slider">
-              <input checked type="radio" name="slider" id="switch1">
-              <input type="radio" name="slider" id="switch2">
-              <input type="radio" name="slider" id="switch3">
-              <input type="radio" name="slider" id="switch4">
-              <input type="radio" name="slider" id="switch5">
-            <div id="slides">
-              <div id="overflow">
-                <div class="image">
-                  <article><img src="1.jpg"></article>
-                  <article><img src="2.jpg"></article>
-                  <article><img src="3.jpg"></article>
-                  <article><img src="4.jpg"></article>
-                  <article><img src="5.jpg"></article>
-                </div>
-              </div>
-            </div>
-            <div id="controls">
-              <label for="switch1"></label>
-              <label for="switch2"></label>
-              <label for="switch3"></label>
-              <label for="switch4"></label>
-              <label for="switch5"></label>
-            </div>
-            <div id="active">
-              <label for="switch1"></label>
-              <label for="switch2"></label>
-              <label for="switch3"></label>
-              <label for="switch4"></label>
-              <label for="switch5"></label>
-            </div>
-          </article>
-      </div>
+	<div class="page1">
+    <div> <a name="1"> </a> </div>
+		<div class="wrapper"> 
+  <h1 class="welcome"> </h1>
+  <p id="abz">  </p>
+  </div>
+	</div>
+	<div class="flex-container2">
+    <div> <a name="2"> </a> </div>
+		<div id="cont"> <h2 class="team"> Шампуни </h2>
+			<div class="hr" </div>
 </div>
-
-</body></html>
+</body>
+</html>
